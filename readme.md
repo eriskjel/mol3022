@@ -13,8 +13,8 @@ Protein secondary structure refers to the local conformations of the polypeptide
 
 ```
 # Clone the repository
-git clone https://github.com/eriskjel/protein-ss-prediction.git
-cd protein-ss-prediction
+git clone https://github.com/eriskjel/mol3022
+cd mol3022
 
 # Create a virtual environment (recommended)
 python -m venv venv
@@ -29,7 +29,7 @@ pip install -r requirements.txt
 
 The easiest way to use this tool is through the graphical interface:
 ```
-python protein_ss.py
+python predict_ss.py
 ```
 
 This will open the application window where you can:
