@@ -43,7 +43,7 @@ This will open the application window where you can:
 ## Training a New Model (Optional)
 The repository includes a pre-trained model, but you can train your own if desired:
 ````
-python train_model.py --train data/protein-secondary-structure.train --test data/protein-secondary-structure.test --output my_model.h5
+python train_model.py --train data/protein-secondary-structure.train --test data/protein-secondary-structure.test --output protein_ss_model.h5
 ````
 
 ### Arguments:
